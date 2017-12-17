@@ -1,0 +1,283 @@
+*{
+	box-sizing: border-box;
+	font-family: "Impact","Charcoal", "sans-serif";
+}
+
+@fontface{
+	font-family: "Champagne_Limousines";
+	src:url(fonts/Champagne__amp__Limousines);
+	src: url(fonts/Champagne_Limousines.ttf);
+
+}
+body{
+	
+
+}
+.logo{
+	margin:10px;
+	padding: 10px;
+    transition: initial;
+}
+ul{
+   
+
+}
+
+/* NAVIGACIJA/////////////*/
+
+.nav_1{
+	list-style-type: none;
+	float:right;
+	top: 10px;
+	margin-top: -200px;
+	display: inline-flex;
+	color:#FFF;
+	text-decoration-style: none;
+
+
+	
+}
+/*Slika pozadine gornja*/
+.pozadina {
+	background-image: url(img/back.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    margin-top: -17em;
+    padding: 10em 0;
+    color: #FFF;
+
+
+
+}
+
+.nav_1 li {
+	margin: 1em;
+	padding: 1em;
+    display: inline-block;
+
+}
+.nav_1 a:hover,
+.nav_1 a:focus{
+       outline: solid;
+       outline-offset: 0.5em; 
+       outline-color: #e58302;   
+}
+
+.nav_1  a{
+	font-size: 22px;
+	font-family: "Impact", Charcoal, sans-serif;
+	color:#FFF;
+	text-decoration:none;
+	text-shadow: 2px 2px 5px black;
+
+
+}
+.Title h1{
+	
+	text-align: center;
+	font-size: 50px;
+	padding: 4em;
+	word-spacing: 10px;
+	text-shadow: 2px 2px 5px black;
+}
+
+/* prvi podnaslov  */
+
+.Title2 {
+	text-align: center;
+	
+	
+}
+
+.Title2 h3{
+	margin:0;
+	padding: 1em;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px black;
+}
+.Title2 a {
+	padding: 0.8em 3em 0.8em 3em;
+	text-decoration:none;
+	color: #FFF;
+	outline:solid;
+	outline-color: #e58302;
+	text-shadow: 2px 2px 5px black;
+
+
+/* dugme 1 */	
+
+}
+.dugme_1{
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+.dugme_1:hover{
+	background-color:#e58302 ; /* Green */
+    color: white;
+}
+.Title3{
+    text-align: left;
+    padding:40px;
+    margin: 50px;
+    margin-top: 10px;
+    margin-left: 3em;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px white;
+
+   
+}
+.Workpointe h3{
+	color: #7c827e;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.aliexpres{
+	text-align: right
+	
+
+	
+	
+
+
+}
+.Workpointe p{
+       margin-top: -14em;
+       padding-top: -14em;
+       margin-right: 7em;
+}
+
+/* OUR MARKETS */
+
+.our_markets {
+	 text-decoration: underline;
+    text-decoration-color:#e58302 ;
+    margin-bottom: 1em;
+    
+}
+.business{
+	margin top: 3em; 
+	
+	
+	
+}
+.Otome {
+	 margin bottom:  6em;
+     margin-top: 4em;
+}
+
+
+
+.markets a{
+	text-decoration: none;
+	font-size: 15px;
+	border-style: solid;
+	padding: 0.8em 2.5em 0.8em 2.5em;
+	border-color: #ce2d2d;
+	color:#ce2d2d;
+	margin-bottom: auto;
+	
+
+	
+	 
+}
+.markets{
+	margin-left: 4em;
+	transition: initial
+	text-color:#7c827e;
+	text-shadow: 2px 2px 5px white;
+
+}
+/* DESNO BUSINES */
+.Desno1{
+	float: right;
+	padding top: -10em;
+	margin-top: -18em;
+	padding-right: 10em;
+	color:#FFF;
+	text-shadow: 2px 2px 5px black;
+	
+
+	
+
+}
+.dugme_2{-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding-bottom: 4em;
+}
+.dugme_2:hover{
+	background-color: red; /* Green */
+    color: white;
+}
+
+}
+.Desno1 a{
+	text-decoration: none;
+	margin-top: 10em;
+	margin-right: 10em;
+}
+.dugme_3 a{
+	padding top: 10em;
+	margin-bottom: 10em;
+	
+}
+.dugme_3 {
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #FFF;
+	padding top: 10em;
+	margin-bottom: 10em;
+	
+}
+.pozadina2{
+	background-image: url(img/back2.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    margin-top: 0;
+    padding: 5em 0;
+    
+}
+
+/* PRODUKTI /////////////////////////////// */
+
+.Produkti{
+	margin: 2em;
+	padding: 5em;
+	margin-left: 4em;
+}
+.Produkti h2{
+	text-decoration: underline;
+	text-decoration-color: #e58302;
+}
+.Desno2{
+	float: right;
+     
+    margin-top: -30em;
+    margin-right: 10em;
+}
+.Desno2 img{
+	width:400px;
+	height: 200px;
+	padding right: 0px;
+	box-shadow: 10px 10px 5px grey;
+
+}
+.ajir{
+
+	margin: 2em;
+	margin-right: 4em;
+	
+
+}
+.ajir a{
+	text-decoration:none;
+	color:#e58302
+
+
+}
+.dugme_4{
+	text-shadow: 1px 1px 1px black;
+	font-size: 18px;
+}
